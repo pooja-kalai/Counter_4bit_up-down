@@ -41,6 +41,8 @@ Functional Simulation:
       (The path of cshrc could vary depending on the installation destination)
       
 	After this you can see the window like below 
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/dee68a4a-bd9b-4020-9c92-25d0bc9c4bd2" />
+
 
 
 ## Fig 2: Invoke the Cadence Environment
@@ -74,12 +76,17 @@ Functional Simulation:
 	linux:/> nclaunch&                 // On subsequent calls to NCVERILOG
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple step
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/2ada1a62-0093-431d-9800-8f436e850c1e" />
+
 
 ## Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
+
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/4f734f67-8150-4fb2-a99e-c864f94b2b0b" />
+
 
 ## Fig 4: cds.lib file Creation
 
@@ -88,6 +95,9 @@ Click the cds.lib file and save the file by clicking on Save option
 	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure
 
 	We are simulating verilog design without using any libraries
+
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/ac340e8a-036a-45f6-8ed0-bc430a465e06" />
+
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -98,6 +108,9 @@ Click the cds.lib file and save the file by clicking on Save option
 	Left side you can see the HDL files. Right side of the window has worklib and snapshots directories listed.
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+
+<img width="1920" height="1200" alt="Screenshot 2026-10-16 160338" src="https://github.com/user-attachments/assets/15ca09a9-c75e-4c0e-9dea-7a6625bf48f0" />
+
 
 ## Fig 6: Nclaunch Window
 
@@ -122,6 +135,9 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+
+<img width="1920" height="1200" alt="Screenshot 2026-10-16 160519" src="https://github.com/user-attachments/assets/999887b8-94b3-4413-86d2-9ae664a9206d" />
+
 
 ## Fig 7: Compiled database in worklib
 
@@ -152,6 +168,9 @@ It contains statements that map logical library names to their physical director
     
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
+<img width="1920" height="1200" alt="Screenshot 2026-10-16 160519" src="https://github.com/user-attachments/assets/30b9d8b7-baed-4041-87e1-fa890462eaf6" />
+
+
 ## Fig 8: Elaboration Launch Option
 
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
@@ -164,11 +183,22 @@ It contains statements that map logical library names to their physical director
 
 	Steps for simulation – Run the simulation command with simulator options
 
+<img width="1007" height="462" alt="image" src="https://github.com/user-attachments/assets/dfc2e395-a53d-45ea-a26f-a23a5da15f29" />
+
+
 ## Fig 9: Design Browser window for simulation
+
+<img width="1067" height="582" alt="image" src="https://github.com/user-attachments/assets/e5121d01-c551-48c8-ab93-eed5b90d0aa6" />
+
 
 ## Fig 10: Simulation Waveform Window
 
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/4106bf9b-44bb-46e2-9af7-65f58ab69fd9" />
+
+
 ## Fig 11: Simulation Waveform Window
+
+The functionality of a 4bit_up-down asynchronous reset Counter was successfully verified using a test bench and simulated with the nclaunch tool.
 
 ### Result
 
